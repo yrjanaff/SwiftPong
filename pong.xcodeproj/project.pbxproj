@@ -16,6 +16,7 @@
 		CE6CE42F2AFEB5F000AAC309 /* pongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CE42E2AFEB5F000AAC309 /* pongTests.swift */; };
 		CE6CE4392AFEB5F000AAC309 /* pongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CE4382AFEB5F000AAC309 /* pongUITests.swift */; };
 		CE6CE43B2AFEB5F000AAC309 /* pongUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CE43A2AFEB5F000AAC309 /* pongUITestsLaunchTests.swift */; };
+		CE6CE4482AFED53A00AAC309 /* Square.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE6CE4472AFED53A00AAC309 /* Square.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CE6CE4342AFEB5F000AAC309 /* pongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6CE4382AFEB5F000AAC309 /* pongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pongUITests.swift; sourceTree = "<group>"; };
 		CE6CE43A2AFEB5F000AAC309 /* pongUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pongUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE6CE4472AFED53A00AAC309 /* Square.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Square.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		CE6CE40B2AFEB5EE00AAC309 = {
 			isa = PBXGroup;
 			children = (
+				CE6CE4472AFED53A00AAC309 /* Square.ttf */,
 				CE6CE4162AFEB5EE00AAC309 /* pong */,
 				CE6CE42D2AFEB5F000AAC309 /* pongTests */,
 				CE6CE4372AFEB5F000AAC309 /* pongUITests */,
@@ -234,6 +237,7 @@
 				CE6CE4242AFEB5F000AAC309 /* LaunchScreen.storyboard in Resources */,
 				CE6CE4212AFEB5F000AAC309 /* Assets.xcassets in Resources */,
 				CE6CE41F2AFEB5EE00AAC309 /* Main.storyboard in Resources */,
+				CE6CE4482AFED53A00AAC309 /* Square.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,11 +449,14 @@
 				DEVELOPMENT_TEAM = Z63W3T954X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = pong/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PONG;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,11 +480,14 @@
 				DEVELOPMENT_TEAM = Z63W3T954X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = pong/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PONG;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
